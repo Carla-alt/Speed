@@ -1,0 +1,15 @@
+public class Main{
+    public void fullTrottle(){
+        System.out.println("Apasa acceleratia!");
+    }
+
+    public void speed(int maxVit){
+        System.out.println("Viteza maxima este:" + maxVit);
+    }
+
+    public static void main(String[] args){
+        Main myCar=new Main();
+        myCar.fullTrottle();
+        myCar.speed(200);
+    }
+}
